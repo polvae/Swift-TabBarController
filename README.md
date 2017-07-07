@@ -5,6 +5,6 @@
 * 适用的一些工具类
 
 ## 预览图<br>
-![](https://github.com/polvae/CollectionViewInTableViewCell/blob/master/DishListRecord.gif) <br>
+![](https://github.com/polvae/Swift-TabBarController/blob/master/Introduction.gif) <br>
 
 东拼西凑 累·······
