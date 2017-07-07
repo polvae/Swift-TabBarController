@@ -16,6 +16,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame:UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.white
+        let tabBarController = KGTabBarViewController()
+        /**
+         *  设为根控制器
+         */
+        window?.rootViewController = tabBarController
+        /*
+         设置数字角标(可选)
+         */
+        tabBarController.showBadgeMark(100, index: 1)
+        /*
+         设置小红点(可选)
+         */
+        tabBarController.showPointMarkIndex(2)
+        
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

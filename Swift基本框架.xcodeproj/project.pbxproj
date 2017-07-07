@@ -15,6 +15,40 @@
 		029426301F0F2C0C00BD5378 /* Swift____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294262F1F0F2C0C00BD5378 /* Swift____UITests.swift */; };
 		029426891F0F2D7300BD5378 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0294264A1F0F2C9B00BD5378 /* Alamofire.framework */; };
 		0294268A1F0F2D7300BD5378 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0294267C1F0F2D6300BD5378 /* SwiftyJSON.framework */; };
+		0294268F1F0F2FFF00BD5378 /* KGBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294268C1F0F2FFF00BD5378 /* KGBaseViewController.swift */; };
+		029426901F0F2FFF00BD5378 /* KGNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294268D1F0F2FFF00BD5378 /* KGNavViewController.swift */; };
+		029426911F0F2FFF00BD5378 /* KGTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294268E1F0F2FFF00BD5378 /* KGTabBarViewController.swift */; };
+		029426941F0F300F00BD5378 /* Comand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029426931F0F300F00BD5378 /* Comand.swift */; };
+		029426AC1F0F301600BD5378 /* myBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426961F0F301600BD5378 /* myBack@2x.png */; };
+		029426AD1F0F301600BD5378 /* find_tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426981F0F301600BD5378 /* find_tabbar@2x.png */; };
+		029426AE1F0F301600BD5378 /* find_tabbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426991F0F301600BD5378 /* find_tabbar@3x.png */; };
+		029426AF1F0F301600BD5378 /* find_tabbar_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0294269A1F0F301600BD5378 /* find_tabbar_sel@2x.png */; };
+		029426B01F0F301600BD5378 /* find_tabbar_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0294269B1F0F301600BD5378 /* find_tabbar_sel@3x.png */; };
+		029426B11F0F301600BD5378 /* friend_tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0294269C1F0F301600BD5378 /* friend_tabbar@2x.png */; };
+		029426B21F0F301600BD5378 /* friend_tabbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0294269D1F0F301600BD5378 /* friend_tabbar@3x.png */; };
+		029426B31F0F301600BD5378 /* friend_tabbar_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0294269E1F0F301600BD5378 /* friend_tabbar_sel@2x.png */; };
+		029426B41F0F301600BD5378 /* friend_tabbar_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0294269F1F0F301600BD5378 /* friend_tabbar_sel@3x.png */; };
+		029426B51F0F301600BD5378 /* home_tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426A01F0F301600BD5378 /* home_tabbar@2x.png */; };
+		029426B61F0F301600BD5378 /* home_tabbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426A11F0F301600BD5378 /* home_tabbar@3x.png */; };
+		029426B71F0F301600BD5378 /* home_tabbar_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426A21F0F301600BD5378 /* home_tabbar_sel@2x.png */; };
+		029426B81F0F301600BD5378 /* home_tabbar_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426A31F0F301600BD5378 /* home_tabbar_sel@3x.png */; };
+		029426B91F0F301600BD5378 /* me_tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426A41F0F301600BD5378 /* me_tabbar@2x.png */; };
+		029426BA1F0F301600BD5378 /* me_tabbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426A51F0F301600BD5378 /* me_tabbar@3x.png */; };
+		029426BB1F0F301600BD5378 /* me_tabbar_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426A61F0F301600BD5378 /* me_tabbar_sel@2x.png */; };
+		029426BC1F0F301600BD5378 /* me_tabbar_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426A71F0F301600BD5378 /* me_tabbar_sel@3x.png */; };
+		029426BD1F0F301600BD5378 /* msg_tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426A81F0F301600BD5378 /* msg_tabbar@2x.png */; };
+		029426BE1F0F301600BD5378 /* msg_tabbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426A91F0F301600BD5378 /* msg_tabbar@3x.png */; };
+		029426BF1F0F301600BD5378 /* msg_tabbar_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426AA1F0F301600BD5378 /* msg_tabbar_sel@2x.png */; };
+		029426C01F0F301600BD5378 /* msg_tabbar_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426AB1F0F301600BD5378 /* msg_tabbar_sel@3x.png */; };
+		029426C41F0F301E00BD5378 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029426C21F0F301E00BD5378 /* ThreeViewController.swift */; };
+		029426C51F0F301E00BD5378 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029426C31F0F301E00BD5378 /* TwoViewController.swift */; };
+		029426C81F0F302500BD5378 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029426C71F0F302500BD5378 /* NetworkRequest.swift */; };
+		029426CE1F0F304100BD5378 /* PositionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029426CA1F0F304100BD5378 /* PositionModel.swift */; };
+		029426CF1F0F304100BD5378 /* PositionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029426CB1F0F304100BD5378 /* PositionTableViewCell.swift */; };
+		029426D01F0F304100BD5378 /* PositionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 029426CC1F0F304100BD5378 /* PositionTableViewCell.xib */; };
+		029426D41F0F31AE00BD5378 /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426D21F0F31AE00BD5378 /* banner@2x.png */; };
+		029426D51F0F31AE00BD5378 /* banner@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029426D31F0F31AE00BD5378 /* banner@3x.png */; };
+		029426D71F0F31F000BD5378 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029426D61F0F31F000BD5378 /* PositionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +181,40 @@
 		029426311F0F2C0C00BD5378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0294263E1F0F2C9A00BD5378 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		029426701F0F2D6200BD5378 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = "SwiftyJSON-master/SwiftyJSON.xcodeproj"; sourceTree = "<group>"; };
+		0294268C1F0F2FFF00BD5378 /* KGBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGBaseViewController.swift; sourceTree = "<group>"; };
+		0294268D1F0F2FFF00BD5378 /* KGNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGNavViewController.swift; sourceTree = "<group>"; };
+		0294268E1F0F2FFF00BD5378 /* KGTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGTabBarViewController.swift; sourceTree = "<group>"; };
+		029426931F0F300F00BD5378 /* Comand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comand.swift; sourceTree = "<group>"; };
+		029426961F0F301600BD5378 /* myBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myBack@2x.png"; sourceTree = "<group>"; };
+		029426981F0F301600BD5378 /* find_tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "find_tabbar@2x.png"; sourceTree = "<group>"; };
+		029426991F0F301600BD5378 /* find_tabbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "find_tabbar@3x.png"; sourceTree = "<group>"; };
+		0294269A1F0F301600BD5378 /* find_tabbar_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "find_tabbar_sel@2x.png"; sourceTree = "<group>"; };
+		0294269B1F0F301600BD5378 /* find_tabbar_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "find_tabbar_sel@3x.png"; sourceTree = "<group>"; };
+		0294269C1F0F301600BD5378 /* friend_tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend_tabbar@2x.png"; sourceTree = "<group>"; };
+		0294269D1F0F301600BD5378 /* friend_tabbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend_tabbar@3x.png"; sourceTree = "<group>"; };
+		0294269E1F0F301600BD5378 /* friend_tabbar_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend_tabbar_sel@2x.png"; sourceTree = "<group>"; };
+		0294269F1F0F301600BD5378 /* friend_tabbar_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend_tabbar_sel@3x.png"; sourceTree = "<group>"; };
+		029426A01F0F301600BD5378 /* home_tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_tabbar@2x.png"; sourceTree = "<group>"; };
+		029426A11F0F301600BD5378 /* home_tabbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_tabbar@3x.png"; sourceTree = "<group>"; };
+		029426A21F0F301600BD5378 /* home_tabbar_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_tabbar_sel@2x.png"; sourceTree = "<group>"; };
+		029426A31F0F301600BD5378 /* home_tabbar_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_tabbar_sel@3x.png"; sourceTree = "<group>"; };
+		029426A41F0F301600BD5378 /* me_tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_tabbar@2x.png"; sourceTree = "<group>"; };
+		029426A51F0F301600BD5378 /* me_tabbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_tabbar@3x.png"; sourceTree = "<group>"; };
+		029426A61F0F301600BD5378 /* me_tabbar_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_tabbar_sel@2x.png"; sourceTree = "<group>"; };
+		029426A71F0F301600BD5378 /* me_tabbar_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_tabbar_sel@3x.png"; sourceTree = "<group>"; };
+		029426A81F0F301600BD5378 /* msg_tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg_tabbar@2x.png"; sourceTree = "<group>"; };
+		029426A91F0F301600BD5378 /* msg_tabbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg_tabbar@3x.png"; sourceTree = "<group>"; };
+		029426AA1F0F301600BD5378 /* msg_tabbar_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg_tabbar_sel@2x.png"; sourceTree = "<group>"; };
+		029426AB1F0F301600BD5378 /* msg_tabbar_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msg_tabbar_sel@3x.png"; sourceTree = "<group>"; };
+		029426C21F0F301E00BD5378 /* ThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		029426C31F0F301E00BD5378 /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		029426C71F0F302500BD5378 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		029426CA1F0F304100BD5378 /* PositionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionModel.swift; sourceTree = "<group>"; };
+		029426CB1F0F304100BD5378 /* PositionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionTableViewCell.swift; sourceTree = "<group>"; };
+		029426CC1F0F304100BD5378 /* PositionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PositionTableViewCell.xib; sourceTree = "<group>"; };
+		029426D21F0F31AE00BD5378 /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@2x.png"; sourceTree = "<group>"; };
+		029426D31F0F31AE00BD5378 /* banner@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@3x.png"; sourceTree = "<group>"; };
+		029426D61F0F31F000BD5378 /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +268,12 @@
 			isa = PBXGroup;
 			children = (
 				0294263D1F0F2C7D00BD5378 /* ThirLibs */,
+				0294268B1F0F2FFF00BD5378 /* RootViewControllor */,
+				029426C91F0F304100BD5378 /* PositionViewController */,
+				029426C11F0F301E00BD5378 /* TestViewController */,
+				029426921F0F300F00BD5378 /* Defines */,
+				029426C61F0F302500BD5378 /* Tools */,
+				029426951F0F301600BD5378 /* Resources */,
 				0294260F1F0F2C0C00BD5378 /* AppDelegate.swift */,
 				029426131F0F2C0C00BD5378 /* Main.storyboard */,
 				029426161F0F2C0C00BD5378 /* Assets.xcassets */,
@@ -262,6 +336,90 @@
 				029426881F0F2D6300BD5378 /* SwiftyJSON tvOS Tests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0294268B1F0F2FFF00BD5378 /* RootViewControllor */ = {
+			isa = PBXGroup;
+			children = (
+				0294268C1F0F2FFF00BD5378 /* KGBaseViewController.swift */,
+				0294268D1F0F2FFF00BD5378 /* KGNavViewController.swift */,
+				0294268E1F0F2FFF00BD5378 /* KGTabBarViewController.swift */,
+			);
+			path = RootViewControllor;
+			sourceTree = "<group>";
+		};
+		029426921F0F300F00BD5378 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				029426931F0F300F00BD5378 /* Comand.swift */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		029426951F0F301600BD5378 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				029426D21F0F31AE00BD5378 /* banner@2x.png */,
+				029426D31F0F31AE00BD5378 /* banner@3x.png */,
+				029426961F0F301600BD5378 /* myBack@2x.png */,
+				029426971F0F301600BD5378 /* TabbarIcons */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		029426971F0F301600BD5378 /* TabbarIcons */ = {
+			isa = PBXGroup;
+			children = (
+				029426981F0F301600BD5378 /* find_tabbar@2x.png */,
+				029426991F0F301600BD5378 /* find_tabbar@3x.png */,
+				0294269A1F0F301600BD5378 /* find_tabbar_sel@2x.png */,
+				0294269B1F0F301600BD5378 /* find_tabbar_sel@3x.png */,
+				0294269C1F0F301600BD5378 /* friend_tabbar@2x.png */,
+				0294269D1F0F301600BD5378 /* friend_tabbar@3x.png */,
+				0294269E1F0F301600BD5378 /* friend_tabbar_sel@2x.png */,
+				0294269F1F0F301600BD5378 /* friend_tabbar_sel@3x.png */,
+				029426A01F0F301600BD5378 /* home_tabbar@2x.png */,
+				029426A11F0F301600BD5378 /* home_tabbar@3x.png */,
+				029426A21F0F301600BD5378 /* home_tabbar_sel@2x.png */,
+				029426A31F0F301600BD5378 /* home_tabbar_sel@3x.png */,
+				029426A41F0F301600BD5378 /* me_tabbar@2x.png */,
+				029426A51F0F301600BD5378 /* me_tabbar@3x.png */,
+				029426A61F0F301600BD5378 /* me_tabbar_sel@2x.png */,
+				029426A71F0F301600BD5378 /* me_tabbar_sel@3x.png */,
+				029426A81F0F301600BD5378 /* msg_tabbar@2x.png */,
+				029426A91F0F301600BD5378 /* msg_tabbar@3x.png */,
+				029426AA1F0F301600BD5378 /* msg_tabbar_sel@2x.png */,
+				029426AB1F0F301600BD5378 /* msg_tabbar_sel@3x.png */,
+			);
+			path = TabbarIcons;
+			sourceTree = "<group>";
+		};
+		029426C11F0F301E00BD5378 /* TestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				029426C21F0F301E00BD5378 /* ThreeViewController.swift */,
+				029426C31F0F301E00BD5378 /* TwoViewController.swift */,
+			);
+			path = TestViewController;
+			sourceTree = "<group>";
+		};
+		029426C61F0F302500BD5378 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				029426C71F0F302500BD5378 /* NetworkRequest.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		029426C91F0F304100BD5378 /* PositionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				029426D61F0F31F000BD5378 /* PositionViewController.swift */,
+				029426CA1F0F304100BD5378 /* PositionModel.swift */,
+				029426CB1F0F304100BD5378 /* PositionTableViewCell.swift */,
+				029426CC1F0F304100BD5378 /* PositionTableViewCell.xib */,
+			);
+			path = PositionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -482,9 +640,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				029426BD1F0F301600BD5378 /* msg_tabbar@2x.png in Resources */,
+				029426B31F0F301600BD5378 /* friend_tabbar_sel@2x.png in Resources */,
 				0294261A1F0F2C0C00BD5378 /* LaunchScreen.storyboard in Resources */,
+				029426B11F0F301600BD5378 /* friend_tabbar@2x.png in Resources */,
+				029426AC1F0F301600BD5378 /* myBack@2x.png in Resources */,
+				029426B41F0F301600BD5378 /* friend_tabbar_sel@3x.png in Resources */,
+				029426B21F0F301600BD5378 /* friend_tabbar@3x.png in Resources */,
+				029426B71F0F301600BD5378 /* home_tabbar_sel@2x.png in Resources */,
+				029426D01F0F304100BD5378 /* PositionTableViewCell.xib in Resources */,
+				029426C01F0F301600BD5378 /* msg_tabbar_sel@3x.png in Resources */,
+				029426BA1F0F301600BD5378 /* me_tabbar@3x.png in Resources */,
 				029426171F0F2C0C00BD5378 /* Assets.xcassets in Resources */,
+				029426B51F0F301600BD5378 /* home_tabbar@2x.png in Resources */,
+				029426BE1F0F301600BD5378 /* msg_tabbar@3x.png in Resources */,
+				029426BB1F0F301600BD5378 /* me_tabbar_sel@2x.png in Resources */,
+				029426B61F0F301600BD5378 /* home_tabbar@3x.png in Resources */,
+				029426B01F0F301600BD5378 /* find_tabbar_sel@3x.png in Resources */,
+				029426B81F0F301600BD5378 /* home_tabbar_sel@3x.png in Resources */,
 				029426151F0F2C0C00BD5378 /* Main.storyboard in Resources */,
+				029426BF1F0F301600BD5378 /* msg_tabbar_sel@2x.png in Resources */,
+				029426D51F0F31AE00BD5378 /* banner@3x.png in Resources */,
+				029426D41F0F31AE00BD5378 /* banner@2x.png in Resources */,
+				029426AF1F0F301600BD5378 /* find_tabbar_sel@2x.png in Resources */,
+				029426B91F0F301600BD5378 /* me_tabbar@2x.png in Resources */,
+				029426AE1F0F301600BD5378 /* find_tabbar@3x.png in Resources */,
+				029426BC1F0F301600BD5378 /* me_tabbar_sel@3x.png in Resources */,
+				029426AD1F0F301600BD5378 /* find_tabbar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +691,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				029426911F0F2FFF00BD5378 /* KGTabBarViewController.swift in Sources */,
+				029426941F0F300F00BD5378 /* Comand.swift in Sources */,
+				029426C81F0F302500BD5378 /* NetworkRequest.swift in Sources */,
+				029426D71F0F31F000BD5378 /* PositionViewController.swift in Sources */,
+				029426CE1F0F304100BD5378 /* PositionModel.swift in Sources */,
+				029426901F0F2FFF00BD5378 /* KGNavViewController.swift in Sources */,
+				029426C41F0F301E00BD5378 /* ThreeViewController.swift in Sources */,
+				029426CF1F0F304100BD5378 /* PositionTableViewCell.swift in Sources */,
+				029426C51F0F301E00BD5378 /* TwoViewController.swift in Sources */,
 				029426101F0F2C0C00BD5378 /* AppDelegate.swift in Sources */,
+				0294268F1F0F2FFF00BD5378 /* KGBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
